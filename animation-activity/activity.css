@@ -27,6 +27,9 @@ nav {
   opacity: 1;
 }
 
+/****I have no idea why my animation disappears after 
+            the bars cross over****/
+
 @keyframes top {
   from {
     margin-left: 15%;
@@ -37,7 +40,6 @@ nav {
     margin-left: 16%; 
     margin-top: 50%;
     transform: rotate(45deg);
-    opacity: 1;
   }
 }
 
@@ -60,6 +62,5 @@ nav {
     margin-left: 16%;
     margin-bottom: 50%;
     transform: rotate(-45deg);
-    opacity: 1;
   }
 }

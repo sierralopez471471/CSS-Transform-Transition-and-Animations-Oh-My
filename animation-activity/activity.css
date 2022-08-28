@@ -32,35 +32,27 @@ nav {
 
 @keyframes top {
   from {
-    margin-left: 15%;
-    margin-top: 10%;
     transform: rotate(0deg);
   }
   to {
-    margin-left: 16%; 
-    margin-top: 50%;
-    transform: rotate(45deg);
+    transform: rotate(45deg) translateY(25px) translateX(21px);
   }
 }
 
 @keyframes middle {
   from {
-    opacity: 1;
+    opacity: 100%;
   }
   to {
-    opacity: 0;
+    opacity: 0%;
   }
 }
 
 @keyframes bottom {
   from {
-    margin-left: 15%;
-    margin-bottom: 10%;
-    transform: rotate(0deg);
+    transform: rotate(0deg) translateY(0px) translateX(0px);
   }
   to {
-    margin-left: 16%;
-    margin-bottom: 50%;
-    transform: rotate(-45deg);
+    transform: rotate(-45deg) translateY(-25px) translateX(21px);
   }
 }
